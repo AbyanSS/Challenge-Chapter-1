@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Challenge_1_Abyan {
+public class Challenge1 {
     public static void main(String[] args) {
         MainMenu();
     }
