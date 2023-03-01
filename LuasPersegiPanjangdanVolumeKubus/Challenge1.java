@@ -114,7 +114,7 @@ public class Challenge1 {
         int pilihan = -1;
         int home = 0;
 
-        while(pilihan != -1){
+        while(pilihan != 0){
             System.out.println("----------------------------------------");
             System.out.println("           Hitung volum Bidang          ");
             System.out.println("----------------------------------------");
@@ -123,6 +123,7 @@ public class Challenge1 {
             System.out.println("3. Tabung");
             System.out.println("0. Kembali ke menu sebelumnya");
             System.out.print("Masukkan pilihan anda : ");
+            pilihan = input.nextInt();
 
             switch(pilihan){
                 case 1:
@@ -137,6 +138,7 @@ public class Challenge1 {
                     hasil = sisi*sisi*sisi;
        
                     System.out.println("Hasil Perhitungannya adalah : " + hasil);
+                    
 
                     
 
