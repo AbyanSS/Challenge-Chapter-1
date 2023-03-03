@@ -76,7 +76,7 @@ public class Main {
                     teamplateJudul("PERSEGI");
 
                     System.out.print("Masukkan sisi : ");sisi = input.nextInt();
-                    hasil = sisi + sisi;
+                    hasil = sisi * sisi;
 
                     teamplateHasil("persegi", hasil, "luas");
                     break;
